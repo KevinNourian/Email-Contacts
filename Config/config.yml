@@ -1,0 +1,5 @@
+# The base paths to needed files
+
+files:
+  base_path: C:\Birthday\Data\
+  modules_path: C:\Birthday\Modules

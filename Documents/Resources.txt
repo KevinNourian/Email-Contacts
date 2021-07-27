@@ -1,0 +1,18 @@
+from fuzzywuzzy import fuzz
+https://www.youtube.com/watch?v=6i5bHQZ-c5U
+ closest = process.extractOne(names,frame)
+ fuzz.ratio()
+ fuzz.partial_ratio ()
+ process.extract ('Apples', example1, limit = 1)
+ process.extract ('Apples', example1, scorer = fuzz.ratio())
+ https://www.geeksforgeeks.org/python-find-close-matches-input-string-list/
+
+Class
+https://stackoverflow.com/questions/28912645/how-do-i-call-outside-function-from-class-in-python/28912848
+https://www.youtube.com/watch?v=AsafkCAJpJ0
+https://www.youtube.com/watch?v=apACNr7DC_s
+https://www.youtube.com/watch?v=ZDa-Z5JzLYM
+https://www.youtube.com/watch?v=BJ-VvGyQxho
+https://www.youtube.com/watch?v=rq8cL2XMM5M (Static Method)
+https://www.youtube.com/watch?v=RSl87lqOXDE (Inheritance)
+https://www.youtube.com/watch?v=3ohzBxoFHAY (__repr__, __str__)

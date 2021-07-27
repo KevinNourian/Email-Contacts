@@ -1,0 +1,106 @@
+First Presentation (June 6, 2020)
+
+Improve:
+  Return without paranthesis
+  Change file and variable names to snake case.
+  Use pathlib for path address
+  Pure Function:
+      1.The function always returns the same value for the same inputs.
+      2.Evaluation of the function has no side effects. Side effects refer to changing other attributes of the program not contained within the function, such as changing global variable values or using I/O streams.
+  Fuzzy Search
+
+
+Solve:
+  What if two people have the same first name for input 6
+  Fuzzy search
+  Save in Github
+  ReadMe
+  Documentation within the program
+
+
+Second Presentation (June 20, 2020)
+1. Use Git
+7. Use Modules not classes
+4. Line 409: If __name__ = __main__
+2. Doc Strings
+5. String Interpelation of file names (Look at String Shot)
+6. Use Dictionary for choices
+8. For search results, indicate what the search was for.
+9. For full list of commands, input help
+10. Real email service: Mail Gun and Mandril (Monkey)
+
+
+Notes:
+Birthday 39 works before Fuzzy Search.
+Birthday 49 works before class.
+Birthday 50 works after class.
+Birthday 54 works before Dictionary.
+Birthday 55 has partial dictionary.
+Birthday64 works before doing full dictionary.
+Birthday71 works before configuration file.
+Birthday73 works with configuration file
+
+
+Class:
+    Data can be contained by classes.
+    Use classes and dictionaries.
+
+
+Sending Emails:
+https://bradgignac.com/2014/05/12/sending-email-with-python-and-the-mailgun-api.html
+I used birthday57 to redo sending email. birthday 59 and 60 are too complicated.
+
+
+1. Separate choosing friend from messages choice.
+2. Save message should return first name and last name.
+
+
+Project Report (June 27, 2020):
+
+The following is complete:
+1. Eliminated unnecessary classes
+2. Made user options appear only by typing ‘help’.
+3. Implemented if __name__ == '__main__':
+4. Updated Docstrings
+5. Corrected how file paths are coded
+6. When an item is saved in text file searches.txt or sent.txt, a label is attached to the item indicating what has been saved
+7. New functionality: The user can send emails with an inspirational messages chosen from text file, messages.txt
+8. New functionality: The user can send emails with user-created personal messages
+
+The following will be completed within two weeks:
+1. Use dictionary for choices: I need clarification
+2. Make the code modular
+
+Saving modules in different directory:
+  sys.path.append("/foo")
+  PYTHONPATH=/foo python game.py
+
+  import sys
+  sys.path.append('F:/Python/')
+
+Do:
+3. Commit code versions on Git
+4. Save code file on GitHub
+5. Full testing of the code
+6. Create Readme file
+7. Improvement on some of the functions
+8. New functionality: The user can send emails with both an inspirational message chosen from messages.txt and a personal message, created by the user.
+1. Use pathlib for base_path creation (https://realpython.com/python-pathlib/)
+2. Use classes
+4. Config file for path files and options in Json or Yml or Yaml
+https://www.youtube.com/watch?v=cdLNKUoMc6c
+https://www.youtube.com/watch?v=RUYV4P68hiE
+
+
+June 27, 2020:
+1. Use pathlib for base_path creation (https://realpython.com/python-pathlib/)
+2. Use classes
+3. Visit Dovydas Facebook page
+4. Config file for path files and options in Json or Yml or Yaml
+https://www.youtube.com/watch?v=Gdw0-QGq-z0
+
+
+Future Improvements:
+1. The fuzzy search does not give good results.
+2. Resolve Yaml Deprecation warning.
+3. Can Yaml work with Pathlib?
