@@ -1,6 +1,6 @@
 # Birthday
 
-## Program Description
+## Description
 This software was created in Python.
 It allows users to email messages to contacts saved in a .csv database.
 Users can search the database in various ways. Search results are saved in .txt files.
@@ -21,5 +21,5 @@ When an email is sent, a record of the email is created in a .txt file.
 6. save.py: Contains four functions to save results.
 7. search.py: Contains five functions to search databases in various ways.
 
-## Executing the Program
+## Execution
 From the `Code` directory run `Birthday.py`
